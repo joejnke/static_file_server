@@ -1,6 +1,6 @@
-# ~/iCog_tasks/nunet/flask_sfs/static_file_server$ gunicorn -c gunicorn/config.py app:app
-#kill $(cat ~/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/pid.pid) #kill
-#kill -HUP $(cat ~/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/pid.pid) #restart
+# /home/kirub/iCog_tasks/nunet/flask_sfs/static_file_server$ gunicorn -c gunicorn/config.py app:app
+#kill $(cat /home/kirub/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/pid.pid) #kill
+#kill -HUP $(cat /home/kirub/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/pid.pid) #restart
 
 workers = 3
 bind = "0.0.0.0:8888"
