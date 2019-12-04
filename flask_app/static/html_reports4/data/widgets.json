@@ -1,0 +1,146 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 32,
+      "unknown" : 0,
+      "total" : 32
+    },
+    "time" : {
+      "start" : 1574843504455,
+      "stop" : 1574843600029,
+      "duration" : 95574,
+      "minDuration" : 0,
+      "maxDuration" : 91190,
+      "sumDuration" : 95549
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 32,
+    "items" : [ ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 32,
+      "unknown" : 0,
+      "total" : 32
+    }
+  } ],
+  "behaviors" : {
+    "total" : 9,
+    "items" : [ {
+      "uid" : "92eb01fc19d6084b37df250f084f3397",
+      "name" : "navigation drawer",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      }
+    }, {
+      "uid" : "1a0889ffee261cdffc865d8396fd9130",
+      "name" : "previous tasks details page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      }
+    }, {
+      "uid" : "c261901950b80add2df8df4172119a11",
+      "name" : "execute task page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "f8b9afe11c983291361ac30f82012ace",
+      "name" : "login page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "cdc9cdc62f40889e404e6a30ba72bc17",
+      "name" : "signup page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      }
+    }, {
+      "uid" : "059acc73e3aa1e2b21573b015de34bfa",
+      "name" : "previous tasks page",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "65afc6efb747c61ede577276ae43a2e1",
+      "name" : "consumer dashboard",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "96320771868f50394b55677fb72543bc",
+      "name" : "reward table",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "67ef924df932b7705dd5744aa3c60541",
+      "name" : "producer dashboard",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

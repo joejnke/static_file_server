@@ -3,7 +3,7 @@
 #kill -HUP $(cat ~/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/pid.pid) #restart
 
 workers = 3
-bind = "0.0.0.0:5000"
+bind = "0.0.0.0:8000"
 errorlog = "/home/kirub/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/error.log"
 accesslog = "/home/kirub/iCog_tasks/nunet/flask_sfs/static_file_server/gunicorn/log/access.log"
 loglevel = "debug"

@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Path: {{ tree.name }}</title>
+<h1>{{ tree.name }}</h1>
+<ul>
+{%- for item in tree.children recursive %}
+    <li><a href="/static/{{ item.name }}/index.html">{{ item.name }}</a>
+{%- endfor %}
+</ul>

@@ -1,0 +1,321 @@
+[ {
+  "uid" : "d8c5683ac56a053d",
+  "name" : "Clicking start task button lead to the execute task page",
+  "time" : {
+    "start" : 1574843504455,
+    "stop" : 1574843504457,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4003cadfbb7fa85",
+  "name" : "check details for a given task",
+  "time" : {
+    "start" : 1574843600014,
+    "stop" : 1574843600015,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a9f6a9168f6d954",
+  "name" : "check for existence of texts and images on drawer",
+  "time" : {
+    "start" : 1574843600012,
+    "stop" : 1574843600013,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d29343d6f23b206f",
+  "name" : "upload image that contains a dog",
+  "time" : {
+    "start" : 1574843507091,
+    "stop" : 1574843598281,
+    "duration" : 91190
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a167364fb3617fb",
+  "name" : "load more button",
+  "time" : {
+    "start" : 1574843600021,
+    "stop" : 1574843600021,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3df2d3e66af8262e",
+  "name" : "check for existence of texts and images on reward table",
+  "time" : {
+    "start" : 1574843600025,
+    "stop" : 1574843600025,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ae22543674ca712",
+  "name" : "check for existence of texts and images on producer dashboard",
+  "time" : {
+    "start" : 1574843600023,
+    "stop" : 1574843600023,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d21c15ca8d2f20b",
+  "name" : "check for existence of texts and images on previous tasks page",
+  "time" : {
+    "start" : 1574843600022,
+    "stop" : 1574843600022,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b9afce0ff661e01",
+  "name" : "check for existence of texts and images on login page",
+  "time" : {
+    "start" : 1574843600001,
+    "stop" : 1574843600002,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "955fe4f842c0c495",
+  "name" : "signing in with correct credentials",
+  "time" : {
+    "start" : 1574843599999,
+    "stop" : 1574843599999,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea32b1bf5386bcfc",
+  "name" : "click on previous tasks",
+  "time" : {
+    "start" : 1574843600005,
+    "stop" : 1574843600005,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "517de732ed1f09b2",
+  "name" : "check for existence of texts and images on consumer dashboard",
+  "time" : {
+    "start" : 1574843504460,
+    "stop" : 1574843504462,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b5bf59323ad49e4",
+  "name" : "signing up with already existing user name",
+  "time" : {
+    "start" : 1574843600027,
+    "stop" : 1574843600027,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9e5da20b0ff49ad",
+  "name" : "click on reward table",
+  "time" : {
+    "start" : 1574843600006,
+    "stop" : 1574843600007,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b34f0cc6e9017f40",
+  "name" : "click on start task",
+  "time" : {
+    "start" : 1574843600017,
+    "stop" : 1574843600018,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9b606480af3b629",
+  "name" : "check links for existence of previous tasks",
+  "time" : {
+    "start" : 1574843600020,
+    "stop" : 1574843600021,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0ecc4031bce2394",
+  "name" : "click on dark mode",
+  "time" : {
+    "start" : 1574843600010,
+    "stop" : 1574843600011,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99912786f1d26f10",
+  "name" : "signing up for new user name",
+  "time" : {
+    "start" : 1574843600026,
+    "stop" : 1574843600026,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205a5714b3454700",
+  "name" : "signin link works",
+  "time" : {
+    "start" : 1574843600027,
+    "stop" : 1574843600028,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a8c4d9c2100379",
+  "name" : "signing in with incorrect credentials",
+  "time" : {
+    "start" : 1574843599999,
+    "stop" : 1574843600000,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e3fc7a634f58d5",
+  "name" : "join now link works",
+  "time" : {
+    "start" : 1574843600000,
+    "stop" : 1574843600001,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f91320b6954df600",
+  "name" : "check for existence of texts and images on execute task page",
+  "time" : {
+    "start" : 1574843599176,
+    "stop" : 1574843599998,
+    "duration" : 822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7492a3fceadb9e48",
+  "name" : "check for existence of texts and images on signup page",
+  "time" : {
+    "start" : 1574843600028,
+    "stop" : 1574843600029,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3da741811eec6fd",
+  "name" : "click on past tasks",
+  "time" : {
+    "start" : 1574843600016,
+    "stop" : 1574843600017,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2759f8ba9719c14",
+  "name" : "upload a file that is not an image or is a malformed image",
+  "time" : {
+    "start" : 1574843598282,
+    "stop" : 1574843599174,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4aeacb1723ede93e",
+  "name" : "click on  \"See current reward for dog breeds\"",
+  "time" : {
+    "start" : 1574843600018,
+    "stop" : 1574843600019,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ffb8217988d5b21",
+  "name" : "check for existence of texts and images on previous tasks details page",
+  "time" : {
+    "start" : 1574843600019,
+    "stop" : 1574843600020,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff7da1202498d41c",
+  "name" : "load more button",
+  "time" : {
+    "start" : 1574843600024,
+    "stop" : 1574843600024,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6ab9c728f21bc51",
+  "name" : "upload image that does not contain a dog",
+  "time" : {
+    "start" : 1574843504466,
+    "stop" : 1574843507090,
+    "duration" : 2624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "685777a894c64d48",
+  "name" : "click on provider dashboard",
+  "time" : {
+    "start" : 1574843600004,
+    "stop" : 1574843600005,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad7d9e8a33cc297",
+  "name" : "click on consumer dashboard",
+  "time" : {
+    "start" : 1574843600003,
+    "stop" : 1574843600004,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cfd53ec4ef11a9d1",
+  "name" : "click on logout",
+  "time" : {
+    "start" : 1574843600008,
+    "stop" : 1574843600009,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
