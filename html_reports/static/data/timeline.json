@@ -1,0 +1,389 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Clicking start task button lead to the execute task page",
+    "uid" : "d8c5683ac56a053d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843504455,
+      "stop" : 1574843504457,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check details for a given task",
+    "uid" : "4003cadfbb7fa85",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600014,
+      "stop" : 1574843600015,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on drawer",
+    "uid" : "8a9f6a9168f6d954",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600012,
+      "stop" : 1574843600013,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "upload image that contains a dog",
+    "uid" : "d29343d6f23b206f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843507091,
+      "stop" : 1574843598281,
+      "duration" : 91190
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "load more button",
+    "uid" : "4a167364fb3617fb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600021,
+      "stop" : 1574843600021,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on reward table",
+    "uid" : "3df2d3e66af8262e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600025,
+      "stop" : 1574843600025,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on producer dashboard",
+    "uid" : "9ae22543674ca712",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600023,
+      "stop" : 1574843600023,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on previous tasks page",
+    "uid" : "d21c15ca8d2f20b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600022,
+      "stop" : 1574843600022,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on login page",
+    "uid" : "4b9afce0ff661e01",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600001,
+      "stop" : 1574843600002,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signing in with correct credentials",
+    "uid" : "955fe4f842c0c495",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843599999,
+      "stop" : 1574843599999,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on previous tasks",
+    "uid" : "ea32b1bf5386bcfc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600005,
+      "stop" : 1574843600005,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on consumer dashboard",
+    "uid" : "517de732ed1f09b2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843504460,
+      "stop" : 1574843504462,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signing up with already existing user name",
+    "uid" : "1b5bf59323ad49e4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600027,
+      "stop" : 1574843600027,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on reward table",
+    "uid" : "c9e5da20b0ff49ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600006,
+      "stop" : 1574843600007,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on start task",
+    "uid" : "b34f0cc6e9017f40",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600017,
+      "stop" : 1574843600018,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check links for existence of previous tasks",
+    "uid" : "c9b606480af3b629",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600020,
+      "stop" : 1574843600021,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on dark mode",
+    "uid" : "a0ecc4031bce2394",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600010,
+      "stop" : 1574843600011,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signing up for new user name",
+    "uid" : "99912786f1d26f10",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600026,
+      "stop" : 1574843600026,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signin link works",
+    "uid" : "205a5714b3454700",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600027,
+      "stop" : 1574843600028,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "signing in with incorrect credentials",
+    "uid" : "3a8c4d9c2100379",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843599999,
+      "stop" : 1574843600000,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "join now link works",
+    "uid" : "8e3fc7a634f58d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600000,
+      "stop" : 1574843600001,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on execute task page",
+    "uid" : "f91320b6954df600",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843599176,
+      "stop" : 1574843599998,
+      "duration" : 822
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on signup page",
+    "uid" : "7492a3fceadb9e48",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600028,
+      "stop" : 1574843600029,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on past tasks",
+    "uid" : "f3da741811eec6fd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600016,
+      "stop" : 1574843600017,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "upload a file that is not an image or is a malformed image",
+    "uid" : "d2759f8ba9719c14",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843598282,
+      "stop" : 1574843599174,
+      "duration" : 892
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on  \"See current reward for dog breeds\"",
+    "uid" : "4aeacb1723ede93e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600018,
+      "stop" : 1574843600019,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "check for existence of texts and images on previous tasks details page",
+    "uid" : "8ffb8217988d5b21",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600019,
+      "stop" : 1574843600020,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "load more button",
+    "uid" : "ff7da1202498d41c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600024,
+      "stop" : 1574843600024,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "upload image that does not contain a dog",
+    "uid" : "e6ab9c728f21bc51",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843504466,
+      "stop" : 1574843507090,
+      "duration" : 2624
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on provider dashboard",
+    "uid" : "685777a894c64d48",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600004,
+      "stop" : 1574843600005,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on consumer dashboard",
+    "uid" : "5ad7d9e8a33cc297",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600003,
+      "stop" : 1574843600004,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "click on logout",
+    "uid" : "cfd53ec4ef11a9d1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1574843600008,
+      "stop" : 1574843600009,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}

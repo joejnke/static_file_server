@@ -1,0 +1,473 @@
+[2019-12-03 12:51:10 +0300] [4391] [DEBUG] Current configuration:
+  config: gunicorn/config.py
+  bind: ['0.0.0.0:5000']
+  backlog: 2048
+  workers: 5
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 1900
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/kirub/iCog tasks/nunet/static_file_serving/html_reports
+  daemon: False
+  raw_env: []
+  pidfile: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/pid.pid
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%(m)s" "%(U)s" "%(q)s" "%(H)s" %(B)s %(T)s %(p)s "%({Header}i)s" "%({Header}o)s" "%({Header}e)s"
+  errorlog: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: file_serv_app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fa2e06dfb70>
+  on_reload: <function OnReload.on_reload at 0x7fa2e06dfc80>
+  when_ready: <function WhenReady.when_ready at 0x7fa2e06dfd90>
+  pre_fork: <function Prefork.pre_fork at 0x7fa2e06dfea0>
+  post_fork: <function Postfork.post_fork at 0x7fa2e0700048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fa2e0700158>
+  worker_int: <function WorkerInt.worker_int at 0x7fa2e0700268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fa2e0700378>
+  pre_exec: <function PreExec.pre_exec at 0x7fa2e0700488>
+  pre_request: <function PreRequest.pre_request at 0x7fa2e0700598>
+  post_request: <function PostRequest.post_request at 0x7fa2e0700620>
+  child_exit: <function ChildExit.child_exit at 0x7fa2e0700730>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fa2e0700840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fa2e0700950>
+  on_exit: <function OnExit.on_exit at 0x7fa2e0700a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-12-03 12:51:10 +0300] [4391] [INFO] Starting gunicorn 19.9.0
+[2019-12-03 12:51:10 +0300] [4391] [DEBUG] Arbiter booted
+[2019-12-03 12:51:10 +0300] [4391] [INFO] Listening at: http://0.0.0.0:5000 (4391)
+[2019-12-03 12:51:10 +0300] [4391] [INFO] Using worker: sync
+[2019-12-03 12:51:10 +0300] [4394] [INFO] Booting worker with pid: 4394
+[2019-12-03 12:51:10 +0300] [4395] [INFO] Booting worker with pid: 4395
+[2019-12-03 12:51:10 +0300] [4396] [INFO] Booting worker with pid: 4396
+[2019-12-03 12:51:10 +0300] [4399] [INFO] Booting worker with pid: 4399
+[2019-12-03 12:51:10 +0300] [4400] [INFO] Booting worker with pid: 4400
+[2019-12-03 12:51:10 +0300] [4395] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/kirub/iCog tasks/nunet/static_file_serving/html_reports/file_serv_app.py", line 3, in <module>
+    CORS(app)
+NameError: name 'CORS' is not defined
+[2019-12-03 12:51:10 +0300] [4395] [INFO] Worker exiting (pid: 4395)
+[2019-12-03 12:51:10 +0300] [4394] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/kirub/iCog tasks/nunet/static_file_serving/html_reports/file_serv_app.py", line 3, in <module>
+    CORS(app)
+NameError: name 'CORS' is not defined
+[2019-12-03 12:51:10 +0300] [4394] [INFO] Worker exiting (pid: 4394)
+[2019-12-03 12:51:10 +0300] [4391] [DEBUG] 5 workers
+[2019-12-03 12:51:10 +0300] [4396] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/kirub/iCog tasks/nunet/static_file_serving/html_reports/file_serv_app.py", line 3, in <module>
+    CORS(app)
+NameError: name 'CORS' is not defined
+[2019-12-03 12:51:10 +0300] [4396] [INFO] Worker exiting (pid: 4396)
+[2019-12-03 12:51:10 +0300] [4399] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/kirub/iCog tasks/nunet/static_file_serving/html_reports/file_serv_app.py", line 3, in <module>
+    CORS(app)
+NameError: name 'CORS' is not defined
+[2019-12-03 12:51:10 +0300] [4399] [INFO] Worker exiting (pid: 4399)
+[2019-12-03 12:51:10 +0300] [4400] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/kirub/iCog tasks/nunet/static_file_serving/html_reports/file_serv_app.py", line 3, in <module>
+    CORS(app)
+NameError: name 'CORS' is not defined
+[2019-12-03 12:51:10 +0300] [4400] [INFO] Worker exiting (pid: 4400)
+[2019-12-03 12:52:04 +0300] [4411] [DEBUG] Current configuration:
+  config: gunicorn/config.py
+  bind: ['0.0.0.0:5000']
+  backlog: 2048
+  workers: 5
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 1900
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/kirub/iCog tasks/nunet/static_file_serving/html_reports
+  daemon: False
+  raw_env: []
+  pidfile: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/pid.pid
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%(m)s" "%(U)s" "%(q)s" "%(H)s" %(B)s %(T)s %(p)s "%({Header}i)s" "%({Header}o)s" "%({Header}e)s"
+  errorlog: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: file_serv_app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7ff060297b70>
+  on_reload: <function OnReload.on_reload at 0x7ff060297c80>
+  when_ready: <function WhenReady.when_ready at 0x7ff060297d90>
+  pre_fork: <function Prefork.pre_fork at 0x7ff060297ea0>
+  post_fork: <function Postfork.post_fork at 0x7ff0602b8048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ff0602b8158>
+  worker_int: <function WorkerInt.worker_int at 0x7ff0602b8268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ff0602b8378>
+  pre_exec: <function PreExec.pre_exec at 0x7ff0602b8488>
+  pre_request: <function PreRequest.pre_request at 0x7ff0602b8598>
+  post_request: <function PostRequest.post_request at 0x7ff0602b8620>
+  child_exit: <function ChildExit.child_exit at 0x7ff0602b8730>
+  worker_exit: <function WorkerExit.worker_exit at 0x7ff0602b8840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ff0602b8950>
+  on_exit: <function OnExit.on_exit at 0x7ff0602b8a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-12-03 12:52:04 +0300] [4411] [INFO] Starting gunicorn 19.9.0
+[2019-12-03 12:52:04 +0300] [4411] [DEBUG] Arbiter booted
+[2019-12-03 12:52:04 +0300] [4411] [INFO] Listening at: http://0.0.0.0:5000 (4411)
+[2019-12-03 12:52:04 +0300] [4411] [INFO] Using worker: sync
+[2019-12-03 12:52:04 +0300] [4414] [INFO] Booting worker with pid: 4414
+[2019-12-03 12:52:04 +0300] [4415] [INFO] Booting worker with pid: 4415
+[2019-12-03 12:52:04 +0300] [4417] [INFO] Booting worker with pid: 4417
+[2019-12-03 12:52:04 +0300] [4419] [INFO] Booting worker with pid: 4419
+[2019-12-03 12:52:05 +0300] [4421] [INFO] Booting worker with pid: 4421
+[2019-12-03 12:52:05 +0300] [4411] [DEBUG] 5 workers
+[2019-12-03 12:52:28 +0300] [4415] [DEBUG] GET /
+[2019-12-03 12:52:28 +0300] [4414] [DEBUG] GET /styles.css
+[2019-12-03 12:52:28 +0300] [4421] [DEBUG] GET /plugins/screen-diff/styles.css
+[2019-12-03 12:52:28 +0300] [4415] [DEBUG] GET /app.js
+[2019-12-03 12:52:28 +0300] [4414] [DEBUG] GET /plugins/behaviors/index.js
+[2019-12-03 12:52:28 +0300] [4417] [DEBUG] GET /plugins/packages/index.js
+[2019-12-03 12:52:28 +0300] [4417] [DEBUG] GET /plugins/screen-diff/index.js
+[2019-12-03 12:52:28 +0300] [4419] [DEBUG] GET /plugins/behaviors/index.js
+[2019-12-03 12:52:28 +0300] [4419] [DEBUG] GET /plugins/packages/index.js
+[2019-12-03 12:52:28 +0300] [4414] [DEBUG] GET /plugins/screen-diff/index.js
+[2019-12-03 12:52:28 +0300] [4415] [DEBUG] GET /favicon.ico
+[2019-12-03 12:52:45 +0300] [4415] [DEBUG] GET /
+[2019-12-03 12:52:45 +0300] [4414] [DEBUG] GET /app.js
+[2019-12-03 12:52:45 +0300] [4417] [DEBUG] GET /plugins/behaviors/index.js
+[2019-12-03 12:52:45 +0300] [4417] [DEBUG] GET /plugins/screen-diff/styles.css
+[2019-12-03 12:52:45 +0300] [4419] [DEBUG] GET /styles.css
+[2019-12-03 12:52:45 +0300] [4414] [DEBUG] GET /plugins/packages/index.js
+[2019-12-03 12:52:45 +0300] [4421] [DEBUG] GET /plugins/screen-diff/index.js
+[2019-12-03 12:54:04 +0300] [4417] [DEBUG] GET /
+[2019-12-03 12:54:04 +0300] [4414] [DEBUG] GET /styles.css
+[2019-12-03 12:54:04 +0300] [4417] [DEBUG] GET /plugins/screen-diff/styles.css
+[2019-12-03 12:54:04 +0300] [4414] [DEBUG] GET /app.js
+[2019-12-03 12:54:04 +0300] [4419] [DEBUG] GET /plugins/behaviors/index.js
+[2019-12-03 12:54:04 +0300] [4414] [DEBUG] GET /plugins/packages/index.js
+[2019-12-03 12:54:04 +0300] [4414] [DEBUG] GET /plugins/screen-diff/index.js
+[2019-12-03 12:54:04 +0300] [4414] [DEBUG] GET /favicon.ico
+[2019-12-03 12:55:56 +0300] [4417] [DEBUG] Closing connection. 
+[2019-12-03 12:56:10 +0300] [4414] [DEBUG] Closing connection. 
+[2019-12-03 12:58:54 +0300] [4421] [DEBUG] Closing connection. 
+[2019-12-03 13:13:46 +0300] [5022] [INFO] Booting worker with pid: 5022
+[2019-12-03 13:13:46 +0300] [5023] [INFO] Booting worker with pid: 5023
+[2019-12-03 13:13:46 +0300] [5024] [INFO] Booting worker with pid: 5024
+[2019-12-03 13:13:46 +0300] [5025] [INFO] Booting worker with pid: 5025
+[2019-12-03 13:13:46 +0300] [5026] [INFO] Booting worker with pid: 5026
+[2019-12-03 13:13:46 +0300] [4411] [INFO] Handling signal: hup
+[2019-12-03 13:13:46 +0300] [4411] [INFO] Hang up: Master
+[2019-12-03 13:13:47 +0300] [4411] [DEBUG] Current configuration:
+  config: gunicorn/config.py
+  bind: ['0.0.0.0:5000']
+  backlog: 2048
+  workers: 5
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 1900
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/kirub/iCog tasks/nunet/static_file_serving/html_reports
+  daemon: False
+  raw_env: []
+  pidfile: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/pid.pid
+  worker_tmp_dir: None
+  user: 1000
+  group: 1000
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/access.log
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s" "%(m)s" "%(U)s" "%(q)s" "%(H)s" %(B)s %(T)s %(p)s "%({Header}i)s" "%({Header}o)s" "%({Header}e)s"
+  errorlog: /home/kirub/iCog tasks/nunet/static_file_serving/gunicorn/log/error.log
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: file_serv_app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7ff060297b70>
+  on_reload: <function OnReload.on_reload at 0x7ff060297c80>
+  when_ready: <function WhenReady.when_ready at 0x7ff060297d90>
+  pre_fork: <function Prefork.pre_fork at 0x7ff060297ea0>
+  post_fork: <function Postfork.post_fork at 0x7ff0602b8048>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ff0602b8158>
+  worker_int: <function WorkerInt.worker_int at 0x7ff0602b8268>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ff0602b8378>
+  pre_exec: <function PreExec.pre_exec at 0x7ff0602b8488>
+  pre_request: <function PreRequest.pre_request at 0x7ff0602b8598>
+  post_request: <function PostRequest.post_request at 0x7ff0602b8620>
+  child_exit: <function ChildExit.child_exit at 0x7ff0602b8730>
+  worker_exit: <function WorkerExit.worker_exit at 0x7ff0602b8840>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ff0602b8950>
+  on_exit: <function OnExit.on_exit at 0x7ff0602b8a60>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2019-12-03 13:13:47 +0300] [5027] [INFO] Booting worker with pid: 5027
+[2019-12-03 13:13:47 +0300] [5028] [INFO] Booting worker with pid: 5028
+[2019-12-03 13:13:47 +0300] [5030] [INFO] Booting worker with pid: 5030
+[2019-12-03 13:13:47 +0300] [5029] [INFO] Booting worker with pid: 5029
+[2019-12-03 13:13:47 +0300] [5031] [INFO] Booting worker with pid: 5031
+[2019-12-03 13:13:49 +0300] [5025] [INFO] Worker exiting (pid: 5025)
+[2019-12-03 13:13:49 +0300] [5023] [INFO] Worker exiting (pid: 5023)
+[2019-12-03 13:13:49 +0300] [5022] [INFO] Worker exiting (pid: 5022)
+[2019-12-03 13:13:49 +0300] [5024] [INFO] Worker exiting (pid: 5024)
+[2019-12-03 13:13:49 +0300] [5026] [INFO] Worker exiting (pid: 5026)
+[2019-12-03 15:44:31 +0300] [4411] [CRITICAL] WORKER TIMEOUT (pid:5027)
+[2019-12-03 15:44:32 +0300] [4411] [CRITICAL] WORKER TIMEOUT (pid:5028)
+[2019-12-03 15:44:32 +0300] [4411] [CRITICAL] WORKER TIMEOUT (pid:5029)
+[2019-12-03 15:44:32 +0300] [4411] [CRITICAL] WORKER TIMEOUT (pid:5030)
+[2019-12-03 15:44:32 +0300] [4411] [CRITICAL] WORKER TIMEOUT (pid:5031)
+[2019-12-03 15:44:32 +0300] [5029] [INFO] Worker exiting (pid: 5029)
+[2019-12-03 15:44:32 +0300] [5028] [INFO] Worker exiting (pid: 5028)
+[2019-12-03 15:44:32 +0300] [5027] [INFO] Worker exiting (pid: 5027)
+[2019-12-03 15:44:32 +0300] [5030] [INFO] Worker exiting (pid: 5030)
+[2019-12-03 15:44:32 +0300] [5031] [INFO] Worker exiting (pid: 5031)
+[2019-12-03 15:44:33 +0300] [14210] [INFO] Booting worker with pid: 14210
+[2019-12-03 15:44:33 +0300] [14211] [INFO] Booting worker with pid: 14211
+[2019-12-03 15:44:33 +0300] [14212] [INFO] Booting worker with pid: 14212
+[2019-12-03 15:44:33 +0300] [4411] [DEBUG] 3 workers
+[2019-12-03 15:44:33 +0300] [14216] [INFO] Booting worker with pid: 14216
+[2019-12-03 15:44:33 +0300] [14217] [INFO] Booting worker with pid: 14217
+[2019-12-03 15:44:33 +0300] [4411] [DEBUG] 5 workers
+[2019-12-03 17:25:22 +0300] [19324] [INFO] Booting worker with pid: 19324
+[2019-12-03 17:25:22 +0300] [19334] [INFO] Booting worker with pid: 19334
+[2019-12-03 17:25:22 +0300] [19341] [INFO] Booting worker with pid: 19341
+[2019-12-03 17:25:22 +0300] [19361] [INFO] Booting worker with pid: 19361
+[2019-12-03 17:25:22 +0300] [19364] [INFO] Booting worker with pid: 19364
+[2019-12-03 17:25:22 +0300] [4411] [INFO] Handling signal: hup
+[2019-12-03 17:25:22 +0300] [4411] [INFO] Hang up: Master
+[2019-12-03 17:25:22 +0300] [4411] [INFO] Unhandled exception in main loop
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 35, in do_load_config
+    self.load_default_config()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 44, in load_default_config
+    self.cfg = Config(self.usage, prog=self.prog)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/config.py", line 55, in __init__
+    self.settings = make_settings()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/config.py", line 38, in make_settings
+    setting = s()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/config.py", line 269, in __init__
+    self.set(self.default)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/config.py", line 310, in set
+    self.value = self.validator(val)
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/config.py", line 477, in validate_chdir
+    raise ConfigError("can't chdir to %r" % val)
+gunicorn.errors.ConfigError: can't chdir to '/home/kirub/iCog tasks/nunet/static_file_serving'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 225, in run
+    handler()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 256, in handle_hup
+    self.reload()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/arbiter.py", line 448, in reload
+    self.app.reload()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 61, in reload
+    self.do_load_config()
+  File "/home/kirub/anaconda3/envs/people-analytics/lib/python3.6/site-packages/gunicorn/app/base.py", line 38, in do_load_config
+    print("\nError: %s" % str(e), file=sys.stderr)
+OSError: [Errno 5] Input/output error
+[2019-12-03 17:25:23 +0300] [19334] [INFO] Worker exiting (pid: 19334)
+[2019-12-03 17:25:23 +0300] [19341] [INFO] Worker exiting (pid: 19341)
+[2019-12-03 17:25:23 +0300] [19361] [INFO] Worker exiting (pid: 19361)
+[2019-12-03 17:25:23 +0300] [19324] [INFO] Worker exiting (pid: 19324)
+[2019-12-03 17:25:23 +0300] [19364] [INFO] Worker exiting (pid: 19364)
