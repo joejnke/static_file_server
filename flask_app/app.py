@@ -1,16 +1,20 @@
+from os import listdir
+from os.path import expanduser
 from flask import Flask, render_template
-from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
 
 
-@app.route("/")
-@app.route("/home")
-def home():
-    return render_template('index.html')
+@app.route('/')
+def static_file_dir_tree():
+    path = expanduser(u'~/iCog_tasks/nunet/flask_sfs/static_file_server/flask_app/static')
+    dir_list = list()
+    try:
+        dir_list = sorted(listdir(path), reverse=True)
+    except OSError:
+        pass  # handle errors due to empty list of html directories
+    return render_template('index.html', html_report_dir_list=dir_list)
 
 
-if __name__ == '__main__':
-    CORS(app)
-    app.run(port='8000', debug=True)
+if __name__ == "__main__":
+    app.run(host='localhost', port=8888, debug=True)

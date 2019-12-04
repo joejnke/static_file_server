@@ -1,8 +1,9 @@
 <!doctype html>
-<title>Path: {{ tree.name }}</title>
-<h1>{{ tree.name }}</h1>
+<title>html reports</title>
+<h1>Html Reports</h1>
 <ul>
-{%- for item in tree.children recursive %}
-    <li><a href="/static/{{ item.name }}/index.html">{{ item.name }}</a>
+<!--    check if html_report_dir_list is empty before preceding-->
+{%- for item in html_report_dir_list recursive %}
+    <li><a href="/static/{{ item }}/index.html">{{ item }}</a>
 {%- endfor %}
 </ul>

@@ -1,4 +1,5 @@
-import os
+from os import listdir
+from os.path import expanduser
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -6,28 +7,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def dir_tree():
-    path = os.path.expanduser(u'~/iCog_tasks/nunet/flask_sfs/static_file_server/flask_app/static')
-    return render_template('dir_tree.html', tree=make_tree(path))
-
-
-def make_tree(path):
-    tree = dict(name=os.path.basename(path), children=[])
+    path = expanduser(u'~/iCog_tasks/nunet/flask_sfs/static_file_server/flask_app/static')
+    dir_list = list()
     try:
-        lst = os.listdir(path)
+        dir_list = sorted(listdir(path), reverse=True)
     except OSError:
-        pass  # ignore errors
-    else:
-        for name in lst:
-            # print(name)
-            # fn = os.path.join(path, name)
-            tree['children'].append(dict(name=name))
-
-            # if os.path.isdir(fn):
-            #     tree['children'].append(make_tree(fn))
-            # else:
-            #     tree['children'].append(dict(name=name))
-        # print(sorted(tree.items(), reverse=True))
-    return tree
+        pass  # handle errors due to empty list of html directories
+    return render_template('dir_tree.html', html_report_dir_list=dir_list)
 
 
 if __name__ == "__main__":
